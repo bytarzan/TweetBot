@@ -1,7 +1,7 @@
 # TweetBot
-In this project, I read tweets from CSV files into a program, build my own machine learning model, and create an AI that generates realistic tweets!
+In this project, I read tweets from CSV files into a program, build my own machine learning model, and create an AI that generates realistic tweets! <br />
 
-Here is the file breakdown: 
+# File breakdown: 
 
 FileLineIterator.java - This class is a wrapper around the Java I/O class BufferedReader (see lecture slides here) that provides a simple way to work with file data line-by-line. By writing this class, you are creating a simple, nifty file reading utility for yourself.
 
