@@ -126,7 +126,7 @@ public class TweetParser {
                 }
             }
         }
-        return trainingData; // Complete this method
+        return trainingData; 
     }
 
 }
