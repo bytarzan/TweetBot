@@ -160,7 +160,7 @@ public class TweetBot {
 
     public static void main(String[] args) {
         BufferedReader br = FileLineIterator.fileToReader(PATH_TO_TWEETS);
-        TwitterBot t = new TwitterBot(br, TWEET_COLUMN);
+        TweetBot t = new TweetBot(br, TWEET_COLUMN);
         List<String> tweets = t.generateTweets(10, 280); // 280 chars in a tweet
         for (String tweet : tweets) {
             System.out.println(tweet);
